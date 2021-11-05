@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { EditorState, basicSetup } from '@codemirror/basic-setup';
 import { EditorView, keymap } from '@codemirror/view';
 import { defaultKeymap, indentWithTab } from '@codemirror/commands';
-import { javascript } from '@codemirror/lang-javascript';
+import { exampleCompletion, simpleboolean } from 'lang-simpleboolean';
 import { oneDark } from '@codemirror/theme-one-dark';
 import './Editor.css';
 
@@ -22,7 +22,8 @@ const Editor = ({setEditorState}) => {
         basicSetup,
         keymap.of([defaultKeymap, indentWithTab]),
         oneDark,
-        javascript(),
+        simpleboolean(),
+        exampleCompletion,
         onUpdate,
       ],
     });
