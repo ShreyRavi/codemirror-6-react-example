@@ -4,7 +4,7 @@ import { EditorState, basicSetup } from '@codemirror/basic-setup';
 import { EditorView, keymap } from '@codemirror/view';
 import { defaultKeymap, indentWithTab } from '@codemirror/commands';
 import { simpleBooleanCompletion, simpleBoolean } from 'lang-simpleboolean';
-import { oneDark } from '@codemirror/theme-one-dark';
+import { simpleWhite } from 'theme-simple-white';
 import './Editor.css';
 
 const Editor = ({setEditorState}) => {
@@ -21,9 +21,9 @@ const Editor = ({setEditorState}) => {
       extensions: [
         basicSetup,
         keymap.of([defaultKeymap, indentWithTab]),
-        oneDark,
+        simpleWhite,
         simpleBoolean(),
-        simpleBooleanCompletion([]),
+        simpleBooleanCompletion([{ label: "test", type: "constant" }]),
         onUpdate,
       ],
     });

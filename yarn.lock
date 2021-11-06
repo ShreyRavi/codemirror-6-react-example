@@ -10872,6 +10872,15 @@
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
 
+"theme-simple-white@^1.0.0":
+  "integrity" "sha512-vilrZuja8Yp7abIx67OP4r7ilXhk+xH/Dox7RsiThm7QiHUtjPmUGwagBE6xScO8JkIFdzffSf8KEvdk5Kcu+g=="
+  "resolved" "https://registry.npmjs.org/theme-simple-white/-/theme-simple-white-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "@codemirror/highlight" "^0.19.0"
+    "@codemirror/state" "^0.19.0"
+    "@codemirror/view" "^0.19.0"
+
 "throat@^5.0.0":
   "integrity" "sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA=="
   "resolved" "https://registry.npmjs.org/throat/-/throat-5.0.0.tgz"
