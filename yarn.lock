@@ -7084,10 +7084,10 @@
   "resolved" "https://registry.npmjs.org/klona/-/klona-2.0.4.tgz"
   "version" "2.0.4"
 
-"lang-simpleboolean@^0.4.0":
-  "integrity" "sha512-GuLub2B6QKuxhZlr5Ko8Rf/OSIPEBI9eg0m/5Ilso0J1o/NDFnMm7IDAEKsEDv7gVNUJY/oUpmVZQQNi3ddttg=="
-  "resolved" "https://registry.npmjs.org/lang-simpleboolean/-/lang-simpleboolean-0.4.0.tgz"
-  "version" "0.4.0"
+"lang-simpleboolean@^0.5.0":
+  "integrity" "sha512-h4t2TK7wWCxxmxbgQ/h1sUQfglqFSiimXJCatQMfo5/A45kNahXz/xGE+0gL9Ji9rJXfwXSvMv/i5q970ftEoA=="
+  "resolved" "https://registry.npmjs.org/lang-simpleboolean/-/lang-simpleboolean-0.5.0.tgz"
+  "version" "0.5.0"
   dependencies:
     "@codemirror/autocomplete" "^0.19.4"
     "@codemirror/highlight" "^0.19.0"
@@ -10872,10 +10872,10 @@
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
 
-"theme-simple-white@^1.0.0":
-  "integrity" "sha512-vilrZuja8Yp7abIx67OP4r7ilXhk+xH/Dox7RsiThm7QiHUtjPmUGwagBE6xScO8JkIFdzffSf8KEvdk5Kcu+g=="
-  "resolved" "https://registry.npmjs.org/theme-simple-white/-/theme-simple-white-1.0.0.tgz"
-  "version" "1.0.0"
+"theme-simple-white@^1.1.0":
+  "integrity" "sha512-paNBaKx7zAfuMSC7I4HrMSYnFN/i1YPv0Xyk8Wa/+VEPEmT6t154ihQfKeVIfkPP2dXohc0iAmIOdvDoFSF40Q=="
+  "resolved" "https://registry.npmjs.org/theme-simple-white/-/theme-simple-white-1.1.0.tgz"
+  "version" "1.1.0"
   dependencies:
     "@codemirror/highlight" "^0.19.0"
     "@codemirror/state" "^0.19.0"
