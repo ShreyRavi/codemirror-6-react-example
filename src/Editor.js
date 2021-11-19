@@ -15,15 +15,24 @@ const Editor = ({setEditorState}) => {
       setCode(v.state.doc.toString());
   });
 
+  const completeFromListParameter = [
+    {label: "example 1", type: "constant"},
+    {label: "example 2", type: "constant"},
+    {label: "example 3", type: "constant"},
+    {label: "test 1", type: "constant"},
+    {label: "test 1", type: "constant"},
+    {label: "showcase", type: "constant"},
+  ]
+
   useEffect(() => {
     const state = EditorState.create({
-      doc: 'This is an example of CodeMirror 6 on React with JavaScript highlighting.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
+      doc: '(\n\tThis is an example of Code Mirror 6, enabled with the lang-simpleboolean Language Extension and the simpleWhite theme from theme-simple-white AND\n\tinstall both by using npm i lang-simpleboolean and npm i theme-simple-white\n)\nThis is an example, try auto completion by typing \'example 1\', \'test 1\' or \'showcase\'.\nTokens include AND OR NOT.',
       extensions: [
         basicSetup,
         keymap.of([defaultKeymap, indentWithTab]),
         simpleWhite,
         simpleBoolean(),
-        simpleBooleanCompletion([{ label: "test", type: "constant" }]),
+        simpleBooleanCompletion(completeFromListParameter),
         onUpdate,
       ],
     });
